@@ -1,9 +1,9 @@
 from django.shortcuts import render
 import random
 from datetime import timedelta
+import resend
 from .models import User, OTPVerification
 from rest_framework.views import APIView, Response
-from django.core.mail import send_mail
 from django.conf import settings
 from django.utils import timezone
 from rest_framework_simplejwt.tokens import RefreshToken
@@ -25,12 +25,13 @@ class SendOTPView(APIView):
             otp_code=otp_code, 
             expires_at=expires_at
             )
-        send_mail(
-            "Your OTP code",
-            f"Your OTP is {otp_code}",
-            settings.DEFAULT_FROM_EMAIL,
-            [email]
-        )
+        resend.api_key = settings.RESEND_API_KEY
+        resend.Emails.send({
+            "from": "onboarding@resend.dev",
+            "to": [email],
+            "subject": "Your OTP code",
+            "text": f"Your OTP is {otp_code}",
+        })
         return Response({"message" : "OTP sent successfully"})
 
 
@@ -64,8 +65,3 @@ class VerifyOTPview(APIView):
             "access" : str(refresh.access_token),
             "refresh" : str(refresh)
             })
-
-
-
-
-
