@@ -1,3 +1,98 @@
+# 🛍️ Kapoor's Closet — Backend
+
+A Django REST Framework backend for a celebrity-closet-style e-commerce platform, built as a portfolio project to practice REST APIs, authentication, database design, checkout, and payment integration.
+
+> ⚠️ Portfolio project only. Product images use Kapoor family photos as sample data and are not intended for public commercial distribution.
+
+## 🔗 Links
+
+- 🚀 **Live API:** https://kapoor-closet-backend.onrender.com/api/
+- 💻 **Frontend repo:** https://github.com/nehakonakalla9/kapoor-closet-frontend
+- 🌐 **Live site:** https://kapoor-closet-frontend.vercel.app
+
+> **Note:** Hosted on Render's free tier. The first request after inactivity may take 30–60 seconds due to cold starts.
+
+---
+
+## 🧰 Tech Stack
+
+| Category | Technology |
+|---|---|
+| Backend | Django + Django REST Framework |
+| Database | PostgreSQL |
+| Authentication | JWT — Simple JWT |
+| Email | Resend |
+| Payments | Razorpay — Test Mode |
+| Hosting | Render |
+| Frontend | Next.js / React |
+| API Testing | Postman |
+
+---
+
+## ✨ Features
+
+<details>
+<summary>🔐 Authentication</summary>
+
+Passwordless registration using email OTP.
+
+**Flow:** `Register → OTP Email → Verify → User Created → JWT Tokens`
+
+- First name, last name, email & mobile number
+- 4-digit OTP verification
+- JWT access + refresh tokens
+- Anonymous API access disabled
+
+</details>
+
+<details>
+<summary>🛍️ Product Catalog</summary>
+
+- Read-only product API
+- Category filtering
+- Category → Style → Product hierarchy
+- Product images, descriptions, prices & stock
+- Products managed through Django Admin
+
+</details>
+
+<details>
+<summary>❤️ Wishlist</summary>
+
+Authenticated users can add, view and remove wishlist items.
+
+```http
+GET    /api/wishlist/
+POST   /api/wishlist/
+DELETE /api/wishlist/
+```
+
+</details>
+
+<details>
+<summary>🛒 Cart</summary>
+
+- Add, update and remove products
+- Stock validation
+- One-of-each product model
+
+```http
+GET    /api/cart/
+POST   /api/cart/
+PATCH  /api/cart/
+DELETE /api/cart/
+```
+
+</details>
+
+<details>
+<summary>📦 Checkout & Orders</summary>
+
+Checkout converts the cart into an Order and related OrderItems.
+
+Cart → Checkout → Order + OrderItems → Payment
+
+
 
 - Database transaction for checkout
 - Product price snapshot stored in OrderItem
