@@ -1,0 +1,525 @@
+[
+{
+  "model": "products.category",
+  "pk": 1,
+  "fields": {
+    "name": "Women",
+    "slug": "women"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 2,
+  "fields": {
+    "name": "Men",
+    "slug": "men"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 3,
+  "fields": {
+    "name": "Shoes",
+    "slug": "shoes"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 4,
+  "fields": {
+    "name": "Bags",
+    "slug": "bags"
+  }
+},
+{
+  "model": "products.category",
+  "pk": 5,
+  "fields": {
+    "name": "Accessories",
+    "slug": "accessories"
+  }
+},
+{
+  "model": "products.style",
+  "pk": 1,
+  "fields": {
+    "name": "Dior Saddle",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 2,
+  "fields": {
+    "name": "Goyard Tote",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 3,
+  "fields": {
+    "name": "Hermes Picotin",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 4,
+  "fields": {
+    "name": "Chanel 25",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 5,
+  "fields": {
+    "name": "Longchamp Le Pilage",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 6,
+  "fields": {
+    "name": "Polene Cyme",
+    "category": 4
+  }
+},
+{
+  "model": "products.style",
+  "pk": 7,
+  "fields": {
+    "name": "Chikankari kurti",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 8,
+  "fields": {
+    "name": "Saree by Manish Malhotra",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 9,
+  "fields": {
+    "name": "Saree by Sabyasachi",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 10,
+  "fields": {
+    "name": "Co-ord Set",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 11,
+  "fields": {
+    "name": "Dior Suit",
+    "category": 2
+  }
+},
+{
+  "model": "products.style",
+  "pk": 12,
+  "fields": {
+    "name": "Suit By payal khandwala",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 13,
+  "fields": {
+    "name": "Ritu Kumar",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 14,
+  "fields": {
+    "name": "Jacket by Kalki",
+    "category": 2
+  }
+},
+{
+  "model": "products.style",
+  "pk": 15,
+  "fields": {
+    "name": "Argentina Jersey",
+    "category": 2
+  }
+},
+{
+  "model": "products.style",
+  "pk": 16,
+  "fields": {
+    "name": "Sherwani by Tarun Tahiliani",
+    "category": 2
+  }
+},
+{
+  "model": "products.style",
+  "pk": 17,
+  "fields": {
+    "name": "Kurta by Kunal Rawal",
+    "category": 1
+  }
+},
+{
+  "model": "products.style",
+  "pk": 18,
+  "fields": {
+    "name": "Kurta by Anamika khanna",
+    "category": 2
+  }
+},
+{
+  "model": "products.style",
+  "pk": 19,
+  "fields": {
+    "name": "Ferraro",
+    "category": 3
+  }
+},
+{
+  "model": "products.style",
+  "pk": 20,
+  "fields": {
+    "name": "ARKS by Ranbir Kapoor",
+    "category": 3
+  }
+},
+{
+  "model": "products.style",
+  "pk": 21,
+  "fields": {
+    "name": "Fizzy Goblet",
+    "category": 3
+  }
+},
+{
+  "model": "products.style",
+  "pk": 22,
+  "fields": {
+    "name": "Mach & Mach",
+    "category": 3
+  }
+},
+{
+  "model": "products.style",
+  "pk": 23,
+  "fields": {
+    "name": "Hyde",
+    "category": 5
+  }
+},
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "style": 6,
+    "color": "Textured Camel",
+    "size": "Mini",
+    "quantity": 5,
+    "description": "This compact sculptured tote bag featuring waves, folds, and curves can be used in two ways.\r\nThe first is a basket, its sides open, its straps on the outside.",
+    "price": "55000.00",
+    "image": "products/cyme_polene.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "style": 5,
+    "color": "Brown",
+    "size": "Medium Satchel",
+    "quantity": 10,
+    "description": "leather top handles with exterior slip pocket & fold-over top with press-stud fastening",
+    "price": "135000.00",
+    "image": "products/long.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "style": 4,
+    "color": "Powder Blue",
+    "size": "Mini",
+    "quantity": 3,
+    "description": "Washed Denim & Gold-Tone Metal \r\nBlue",
+    "price": "605600.00",
+    "image": "products/chanel.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 4,
+  "fields": {
+    "style": 3,
+    "color": "Noir",
+    "size": "22",
+    "quantity": 5,
+    "description": "Picotin is a nod to the equestrian world. Inspired by the shape of the feeder bags used to contain oats, this bag acts as a carefree companion for the wearer.",
+    "price": "800000.00",
+    "image": "products/hermes.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 5,
+  "fields": {
+    "style": 2,
+    "color": "Saint Louis",
+    "size": "GM",
+    "quantity": 4,
+    "description": "Secure Emblematic Ttoe",
+    "price": "145000.00",
+    "image": "products/goyard.webp"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 6,
+  "fields": {
+    "style": 1,
+    "color": "Blue Oblique Jacquard",
+    "size": "Mini",
+    "quantity": 0,
+    "description": "IT Bag and hallmark design that has been reimagined in leather and signature motifs",
+    "price": "166000.00",
+    "image": "products/dior.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 7,
+  "fields": {
+    "style": 7,
+    "color": "Powder Blue",
+    "size": "S",
+    "quantity": 60,
+    "description": "Shraddha Kapoor's Favourite Modal chikankari kurta.\r\nHandcrafted elegance",
+    "price": "1850.00",
+    "image": "products/chikankari.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 8,
+  "fields": {
+    "style": 8,
+    "color": "Black",
+    "size": "Regular",
+    "quantity": 6,
+    "description": "Kareena Kapoor stuns in Manish Malhotra’s Black & Gold sequin saree, where every sequin plays its part. \r\nThe black sets the stage, the gold comes alive and when the lights hit, the shimmer dances differently from every angle, creating a completely new vibe.",
+    "price": "3000000.00",
+    "image": "products/manish_malhotra.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 9,
+  "fields": {
+    "style": 9,
+    "color": "Multicolor",
+    "size": "Regular",
+    "quantity": 1,
+    "description": "Alia Bhatt Kapoor In Sabyasachi Multi Color Designer Party Wear Saree\r\nSaree : Original Moss (Fabric) Work : Digital Print With Fancy Lace Border Length : 5 . 50 MBlouse : Heavy Satin Length : 0 . 80 M Type : Unstitched",
+    "price": "140000.00",
+    "image": "products/sabyasachi.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 10,
+  "fields": {
+    "style": 10,
+    "color": "White",
+    "size": "M",
+    "quantity": 6,
+    "description": "Janhvi Kapoor in Miu Miu Cotton top & skorts",
+    "price": "650000.00",
+    "image": "products/miu_miu.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 11,
+  "fields": {
+    "style": 11,
+    "color": "Black",
+    "size": "40",
+    "quantity": 1,
+    "description": "Ranbir kapoor in Dior Classic suit for Vouge Beauty Awards",
+    "price": "800000.00",
+    "image": "products/rk_dior.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 12,
+  "fields": {
+    "style": 12,
+    "color": "Black",
+    "size": "Medium",
+    "quantity": 6,
+    "description": "Karishma Kapoor steps out wearing Payal khandwala",
+    "price": "65000.00",
+    "image": "products/kk.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 13,
+  "fields": {
+    "style": 13,
+    "color": "Black",
+    "size": "L",
+    "quantity": 8,
+    "description": "Kareena Kapoor Khan at pre-wedding ceremony of Anant Ambani and Radhika merchant in Ritu Kumar",
+    "price": "500000.00",
+    "image": "products/ritu_kumar.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 14,
+  "fields": {
+    "style": 14,
+    "color": "Black",
+    "size": "40",
+    "quantity": 6,
+    "description": "Aditya Roy Kapur In Our Black Double Layered Indo Western Jacket With Shirt And Pant",
+    "price": "59950.00",
+    "image": "products/kalki.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 15,
+  "fields": {
+    "style": 15,
+    "color": "White & Blue",
+    "size": "40",
+    "quantity": 90,
+    "description": "Fan Ranbir Kapoor showcases his love for Lionel Messi as he sports Argentinian jersey at recent football match",
+    "price": "8000.00",
+    "image": "products/argentina.webp"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 16,
+  "fields": {
+    "style": 16,
+    "color": "White",
+    "size": "38",
+    "quantity": 1,
+    "description": "Anil Kapoor featuring in ivory sleeveless sherwani in katan silk base with textured thread work by Tarun Tahiliani",
+    "price": "63000.00",
+    "image": "products/ak.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 17,
+  "fields": {
+    "style": 17,
+    "color": "Navy blue",
+    "size": "42",
+    "quantity": 3,
+    "description": "Arjun Kapoor brings festive charm in a navy blue kurta by Kunal Rawal. The kurta's subtle detailing makes it a refined celebration pick.",
+    "price": "63000.00",
+    "image": "products/arjun.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 18,
+  "fields": {
+    "style": 18,
+    "color": "Uvory",
+    "size": "34",
+    "quantity": 7,
+    "description": "Shahid Kapoor In Anamika Khanna Kurta Set\r\nHeavily embroidered kurta in a silk cha",
+    "price": "135000.00",
+    "image": "products/shahid.webp"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 19,
+  "fields": {
+    "style": 19,
+    "color": "Black",
+    "size": "41",
+    "quantity": 16,
+    "description": "Shahid Kapoor in Ferraro - Black Panther Leather Oxfords\r\nShining bright is not for the faint-hearted! The Ferraro is a stunning black patent oxford that is going to be reserved for special moments unless you go through life celebrating every day, then this is where your decisions end.",
+    "price": "14500.00",
+    "image": "products/shoes1.webp"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 20,
+  "fields": {
+    "style": 20,
+    "color": "White",
+    "size": "40",
+    "quantity": 26,
+    "description": "Ranbir kapoor in ARKS at his launch party",
+    "price": "7500.00",
+    "image": "products/shoe2.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 21,
+  "fields": {
+    "style": 21,
+    "color": "Coconut Barfi",
+    "size": "41",
+    "quantity": 8,
+    "description": "Introducing Kareena Kapoor Khan x Fizzy Goblet, a special collection that is made to celebrate the superstar that you are!",
+    "price": "6400.00",
+    "image": "products/shoe3.jpg"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 22,
+  "fields": {
+    "style": 22,
+    "color": "Pink",
+    "size": "40",
+    "quantity": 1,
+    "description": "Double Crystal Bow Square Toe Sandal",
+    "price": "79808.05",
+    "image": "products/shoe4.webp"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 23,
+  "fields": {
+    "style": 23,
+    "color": "Black",
+    "size": "regular",
+    "quantity": 12,
+    "description": "Khushi Kapoor - Bollywood Starlet Dazzles in HYDEs Jet Black Portofino",
+    "price": "50000.00",
+    "image": "products/acc1.webp"
+  }
+}
+]
